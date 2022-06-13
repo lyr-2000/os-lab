@@ -1,19 +1,20 @@
-ORG 07C00H            	;告诉编译器程序被加载的地址为0x7c00
-MOV AX, CS
-MOV DS, AX
-MOV ES, AX
-CALL SHOW
-JMP $
-SHOW:
-    MOV AX, MESSAGE
-    MOV BP, AX
-    MOV CX, 16
-    MOV AX, 01301H        	;AH = 13H AL = 01H
-    MOV BX, 000CH         	;页号为0 BH = 0 红底黑字 BL = 0CH
-    MOV DL, 0
-    INT 10H
-    RET
-MESSAGE:  DB "HELLO, OS WORLD!"
-    TIMES 510 - ($ - $$) DB 0	;剩下的字节全部使用0填充
+mov ax,0xb800;   指向屏幕文本模式的显示缓冲区
+mov es,ax; es 是段寄存器
 
-    DW 0XAA55             	;
+mov byte [es:0x00],'I'
+mov byte [es:0x01],0x07
+mov byte [es:0x02],'L'
+mov byte [es:0x03],0x06 ; 改成黄颜色
+mov byte [es:0x04],'U'
+
+
+jmp $
+times 510 - ($-$$) db 0
+ ; 为什么是 510 不是512呢？ 因为最后2个字要填充魔数 ，0xaa55
+DW 0XAA55    
+
+
+
+
+
+

@@ -7,10 +7,8 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Fri Jun 10 21:16:22 2022
- 
+# Make data base, printed on Mon Jun 13 00:50:15 2022
 
 # Variables
 
@@ -27,7 +25,7 @@ VBOX_MSI_INSTALL_PATH = F:\WINDOWS\USERTEMP
 # environment
 LOCALAPPDATA = C:\Users\ASUS\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a5effaa6-61ef-4102-9ebf-62e523eb02b2-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-6d688f3d-65d6-48f6-a455-332cc73fbd26-sock
 # environment
 PUB_HOSTED_URL = https://pub.flutter-io.cn
 # environment
@@ -45,7 +43,7 @@ GOPATH = F:\software\envfiles\gopath
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11588_PMMXJMGXKLEZJRMZ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17788_CAPFYAXLZETMQZPR
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -61,7 +59,7 @@ VSCODE_LOG_STACK = false
 # environment
 GIT_INSTALL_ROOT = F:\software\region0\scoop\apps\git\current
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
 # environment
 LANG = C
 # default
@@ -105,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 11588
+VSCODE_PID = 17788
 # makefile (from 'Makefile', line 1)
 srcFile = hello.s
 # automatic
@@ -113,14 +111,13 @@ srcFile = hello.s
 # environment
 SCOOP_GLOBAL = F:\software\region0\scoop_global
 # automatic
- 
 *F = $(notdir $*)
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
 SCOOP = F:\software\region0\scoop
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"4d12339779e8282869a6d44b7af3df1e.zh-cn","_translationsConfigFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn\\4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn\\corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-msys
 # environment
@@ -203,7 +200,6 @@ HOMEDRIVE = C:
 PROCESSOR_ARCHITECTURE = AMD64
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
- 
 # environment
 FLUTTER_STORAGE_BASE_URL = https://storage.flutter-io.cn
 # environment
@@ -215,7 +211,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = /f/WINDOWS/USERTEMP
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.67.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.68.0-main-sock
 # environment
 TERM = xterm-256color
 # default
@@ -237,19 +233,17 @@ PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
- 
 # Load=110/1024=11%, Rehash=0, Collisions=11/137=8%
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
 
- 
 # Directories
 
-# . (device 549392, inode 8162774324774446): 9 files, no impossibilities.
+# . (device 549392, inode 8162774324774446): 12 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -299,12 +293,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 117 B / avg = 7 B
-# current buf: size = 8162 B / used = 117 B / count = 15 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 136 B / avg = 7 B
+# current buf: size = 8162 B / used = 136 B / count = 18 / avg = 7 B
 
-# strcache performance: lookups = 21 / hit rate = 28%
+# strcache performance: lookups = 24 / hit rate = 25%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Fri Jun 10 21:16:23 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/24=0%
+# Finished Make data base on Mon Jun 13 00:50:15 2022
 
  
