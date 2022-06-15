@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 13 00:50:15 2022
+# Make data base, printed on Wed Jun 15 12:58:51 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -25,7 +27,7 @@ VBOX_MSI_INSTALL_PATH = F:\WINDOWS\USERTEMP
 # environment
 LOCALAPPDATA = C:\Users\ASUS\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-6d688f3d-65d6-48f6-a455-332cc73fbd26-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e8605114-dbb3-407e-894a-805ed9bbb86d-sock
 # environment
 PUB_HOSTED_URL = https://pub.flutter-io.cn
 # environment
@@ -43,7 +45,9 @@ GOPATH = F:\software\envfiles\gopath
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17788_CAPFYAXLZETMQZPR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20868_ILGFUMZVHKJTXMCY
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -83,7 +87,7 @@ CURDIR := /f/Users/ASUS/Desktop/code/nasm/helloworld
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -103,7 +107,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 17788
+VSCODE_PID = 20868
 # makefile (from 'Makefile', line 1)
 srcFile = hello.s
 # automatic
@@ -233,7 +237,7 @@ PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=110/1024=11%, Rehash=0, Collisions=11/137=8%
+# Load=112/1024=11%, Rehash=0, Collisions=12/139=9%
 
 # Pattern-specific Variable Values
 
@@ -241,9 +245,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (device 549392, inode 8162774324774446): 12 files, no impossibilities.
+# . (device 549392, inode 8162774324774446): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -256,12 +260,12 @@ buildOsBoot:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 4):
-	nasm hello.asm -o boot.bin
+	nasm ${srcFile} -o boot.bin
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-10 21:08:35.8125264
+#  Last modified 2022-06-13 21:00:49.9427656
 #  File has been updated.
 #  Successfully updated.
 
@@ -293,12 +297,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 136 B / avg = 7 B
-# current buf: size = 8162 B / used = 136 B / count = 18 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 142 B / avg = 7 B
+# current buf: size = 8162 B / used = 142 B / count = 19 / avg = 7 B
 
-# strcache performance: lookups = 24 / hit rate = 25%
+# strcache performance: lookups = 25 / hit rate = 24%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/24=0%
-# Finished Make data base on Mon Jun 13 00:50:15 2022
+# Load=19/8192=0%, Rehash=0, Collisions=0/25=0%
+# Finished Make data base on Wed Jun 15 12:58:51 2022
 
  
