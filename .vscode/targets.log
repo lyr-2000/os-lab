@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 15 12:58:51 2022
+# Make data base, printed on Fri Jun 17 00:13:22 2022
 
 # Variables
 
@@ -27,7 +27,7 @@ VBOX_MSI_INSTALL_PATH = F:\WINDOWS\USERTEMP
 # environment
 LOCALAPPDATA = C:\Users\ASUS\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e8605114-dbb3-407e-894a-805ed9bbb86d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-54084cef-d4d5-446e-be01-17e669f97ed3-sock
 # environment
 PUB_HOSTED_URL = https://pub.flutter-io.cn
 # environment
@@ -87,7 +87,7 @@ CURDIR := /f/Users/ASUS/Desktop/code/nasm/helloworld
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -100,16 +100,14 @@ MFLAGS = -pqrR
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
+# makefile
+MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 VSCODE_PID = 20868
-# makefile (from 'Makefile', line 1)
-srcFile = hello.s
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -183,7 +181,7 @@ GNUMAKEFLAGS :=
 # environment
 OS = Windows_NT
 # makefile
-.DEFAULT_GOAL := buildOsBoot
+.DEFAULT_GOAL := 
 # default
 MAKE_VERSION := 4.3
 # environment
@@ -237,7 +235,7 @@ PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=12/139=9%
+# Load=111/1024=11%, Rehash=0, Collisions=12/135=9%
 
 # Pattern-specific Variable Values
 
@@ -245,9 +243,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (device 549392, inode 8162774324774446): 13 files, no impossibilities.
+# . (device 549392, inode 8162774324774446): 9 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -255,26 +253,12 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Files
 
-buildOsBoot:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 4):
-	nasm ${srcFile} -o boot.bin
-
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-13 21:00:49.9427656
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-clean:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 8):
-	rm hello hello.o boot.bin
+#  Failed to be updated.
 
 # Not a target:
 .DEFAULT:
@@ -289,20 +273,34 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/16=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 142 B / avg = 7 B
-# current buf: size = 8162 B / used = 142 B / count = 19 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 121 B / avg = 7 B
+# current buf: size = 8162 B / used = 121 B / count = 16 / avg = 7 B
 
-# strcache performance: lookups = 25 / hit rate = 24%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Wed Jun 15 12:58:51 2022
+# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Fri Jun 17 00:13:22 2022
 
  

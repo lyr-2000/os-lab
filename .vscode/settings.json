@@ -17,6 +17,30 @@
         "*.bin":true,
         "*.exe":true,
         
-    }
+        
+    },
+    "files.associations": {
+        "os.h": "c"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#555ddf",
+        "activityBar.activeBorder": "#eb9499",
+        "activityBar.background": "#555ddf",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#eb9499",
+        "activityBarBadge.foreground": "#15202b",
+        "sash.hoverBorder": "#555ddf",
+        "statusBar.background": "#2a34d7",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#555ddf",
+        "statusBarItem.remoteBackground": "#2a34d7",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#2a34d7",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#2a34d799",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#2a34d7",
  
 }

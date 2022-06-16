@@ -1,0 +1,3 @@
+port_num_of_sector_to_read equ 0x1f2
+port_read_check equ 0x1f7
+port_read equ 0x1f0
