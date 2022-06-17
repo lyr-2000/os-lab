@@ -10,18 +10,18 @@ hard_disk = ../hd60.img
 
 build:
 	nasm $(mbr_source) -o $(mbr_target) 
+	nasm $(loader_source) -o $(loader_target) 
 
-# nasm $(loader_source) -o $(loader_target) 
-	
 burn:
 	dd if=$(mbr_target) of=$(hard_disk) bs=512 count=1 conv=notrunc
-#	dd if=$(loader_target) of=$(hard_disk) bs=512 count=2 seek=2 conv=notrunc
+	dd if=$(loader_target) of=$(hard_disk) bs=512 count=2 seek=2 conv=notrunc
 
 image:
 	yes | bximage -q -hd=60 -func=create -sectsize=512 -imgmode=flat  ${hard_disk}
 
 run:
-	bochs -f ../bochsrc.disk
+	cd .. && pwd &&  bochs -f bochsrc.disk
+	
 clean:
 	
 	rm *.bin

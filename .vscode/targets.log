@@ -3,12 +3,14 @@ make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
 # Built for x86_64-pc-msys
+ 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Jun 17 00:13:22 2022
+# Make data base, printed on Fri Jun 17 10:58:36 2022
 
 # Variables
 
@@ -27,7 +29,7 @@ VBOX_MSI_INSTALL_PATH = F:\WINDOWS\USERTEMP
 # environment
 LOCALAPPDATA = C:\Users\ASUS\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-54084cef-d4d5-446e-be01-17e669f97ed3-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f2df4e72-b27b-4647-ac02-fac18a54c32a-sock
 # environment
 PUB_HOSTED_URL = https://pub.flutter-io.cn
 # environment
@@ -45,7 +47,7 @@ GOPATH = F:\software\envfiles\gopath
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20868_ILGFUMZVHKJTXMCY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_76_AEPSRAABCAGHVFIZ
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -63,7 +65,7 @@ VSCODE_LOG_STACK = false
 # environment
 GIT_INSTALL_ROOT = F:\software\region0\scoop\apps\git\current
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -107,7 +109,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 20868
+VSCODE_PID = 76
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -119,7 +121,7 @@ SCOOP_GLOBAL = F:\software\region0\scoop_global
 # environment
 SCOOP = F:\software\region0\scoop
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"4d12339779e8282869a6d44b7af3df1e.zh-cn","_translationsConfigFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn\\4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\4d12339779e8282869a6d44b7af3df1e.zh-cn\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\ASUS\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-msys
 # environment
@@ -143,7 +145,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /d/Program Files/Eclipse Foundation/jdk-11.0.12.7-hotspot/bin:/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/c/Program Files (x86)/Common Files/Oracle/Java/javapath::/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/WiFi/bin:/c/Program Files/Common Files/Intel/WirelessCommon:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/Java/jdk1.8.0_192/bin:/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/d/Git/cmd:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/d/npm_global/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files/PowerShell/7:/f/software/region0/scoop/apps/nodejs-lts/current/bin:/f/software/region0/scoop/apps/nodejs-lts/current:/f/software/region0/scoop/apps/openjdk17/current/bin:/c/Users/ASUS/go/bin:/f/software/region0/scoop/shims:/c/Users/ASUS/.cargo/bin:/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/c/Users/ASUS/AppData/Local/GitHubDesktop/bin:/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/f/software8/region_commonbin/bin:/c/Users/ASUS/AppData/Roaming/npm:/e/SoftWare8/region8/goPath/bin:/f/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/:/mingw64/bin:/usr/bin:/f/software/region0/vcpkg/vcpkg
+PATH = /d/Program Files/Eclipse Foundation/jdk-11.0.12.7-hotspot/bin:/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/c/Program Files (x86)/Common Files/Oracle/Java/javapath::/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/WiFi/bin:/c/Program Files/Common Files/Intel/WirelessCommon:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/Java/jdk1.8.0_192/bin:/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/d/Git/cmd:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/d/npm_global/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files/PowerShell/7:/f/software/region0/scoop/apps/nodejs-lts/current/bin:/f/software/region0/scoop/apps/nodejs-lts/current:/f/software/region0/scoop/apps/openjdk17/current/bin:/c/Users/ASUS/go/bin:/f/software/region0/scoop/shims:/c/Users/ASUS/.cargo/bin:/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/c/Users/ASUS/AppData/Local/GitHubDesktop/bin:/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/f/software8/region_commonbin/bin:/c/Users/ASUS/AppData/Roaming/npm:/e/SoftWare8/region8/goPath/bin:/f/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/:/mingw64/bin:/usr/bin:/f/software/region0/vcpkg/vcpkg:/f/software/region0/bochs/Bochs-2.7
 # environment
 COMPUTERNAME = DESKTOP-FSVN6C0
 # default
@@ -180,6 +182,8 @@ USERDOMAIN = DESKTOP-FSVN6C0
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -213,7 +217,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = /f/WINDOWS/USERTEMP
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.68.1-main-sock
 # environment
 TERM = xterm-256color
 # default
@@ -235,7 +239,7 @@ PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=12/135=9%
+# Load=112/1024=11%, Rehash=0, Collisions=12/136=9%
 
 # Pattern-specific Variable Values
 
@@ -243,9 +247,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (device 549392, inode 8162774324774446): 9 files, no impossibilities.
+# . (device 549392, inode 8162774324774446): 13 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -295,12 +299,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 121 B / avg = 7 B
-# current buf: size = 8162 B / used = 121 B / count = 16 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 164 B / avg = 8 B
+# current buf: size = 8162 B / used = 164 B / count = 20 / avg = 8 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 23 / hit rate = 13%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Fri Jun 17 00:13:22 2022
+# Load=20/8192=0%, Rehash=0, Collisions=0/23=0%
+# Finished Make data base on Fri Jun 17 10:58:36 2022
 
  

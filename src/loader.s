@@ -97,6 +97,3 @@ p_mode_start:
    mov es, ax
 
    jmp $
-
-
-   
