@@ -1,26 +1,19 @@
-#include <tos/tos.h>
-
-int magic = TOS_MAGIC;
-char Msg [] = "hell world!!!!";
-char buf[1024];
-void kernel_init() {
-    char *screen = (char *)0xb8000;//显示器内存位置
-    for (int i=0;i<sizeof(Msg);i++) {
-        screen[i*2] = Msg[i];
-    }
-
+#include "kernel/print.h"
+void main(void) {
+    put_char('k');
+    put_char('e');
+    put_char('r');
+    put_char('n');
+    put_char('e');
+    put_char('l');
+    put_char('\n');
+    put_char('1');
+    put_char('2');
+    put_char('\b');
+    put_char('3');
+    put_char('\n');
+    unsigned int i = 0;
+    for(; i < 10; i++)
+        put_char('0' + i);
+    while(1);
 }
-
-
-
-
-// void echo(char *str)
-// {
-//     static uint16_t *videoMemory = (uint16_t *)0xb8000;
-//     for (int i = 0; str[i]; i++)
-//     {
-//         videoMemory[i] = (videoMemory[i] & 0xFF00) | str[i];
-//     }
-// }
-
-
