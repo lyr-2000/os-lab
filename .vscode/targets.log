@@ -3,14 +3,13 @@ make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
 # Built for x86_64-pc-msys
- 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Fri Jun 17 10:58:36 2022
+# Make data base, printed on Sun Jun 19 13:32:04 2022
 
 # Variables
 
@@ -29,7 +28,7 @@ VBOX_MSI_INSTALL_PATH = F:\WINDOWS\USERTEMP
 # environment
 LOCALAPPDATA = C:\Users\ASUS\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f2df4e72-b27b-4647-ac02-fac18a54c32a-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-24cdf714-910c-4d01-8ad4-cf60ebe1c5d3-sock
 # environment
 PUB_HOSTED_URL = https://pub.flutter-io.cn
 # environment
@@ -47,7 +46,7 @@ GOPATH = F:\software\envfiles\gopath
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_76_AEPSRAABCAGHVFIZ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15456_JOJHPHHTSUQTPXIO
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -85,7 +84,7 @@ ONEDRIVE = F:\Users\ASUS\OneDrive
 # environment
 POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home China
 # makefile
-CURDIR := /f/Users/ASUS/Desktop/code/nasm/helloworld
+CURDIR := /g/vboxVMS/linuxAppMount/helloworld
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -109,7 +108,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 76
+VSCODE_PID = 15456
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -181,9 +180,9 @@ USERDOMAIN = DESKTOP-FSVN6C0
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-OS = Windows_NT
+!G: = g:\vboxVMS\linuxAppMount\helloworld
 # environment
-__COMPAT_LAYER = DetectorsAppHealth
+OS = Windows_NT
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -196,8 +195,6 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FSVN6C0
 NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
-# environment
-!F: = f:\Users\ASUS\Desktop\code\nasm\helloworld
 # environment
 APPDATA = C:\Users\ASUS\AppData\Roaming
 # environment
@@ -239,7 +236,7 @@ PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=12/136=9%
+# Load=111/1024=11%, Rehash=0, Collisions=12/135=9%
 
 # Pattern-specific Variable Values
 
@@ -247,9 +244,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (device 549392, inode 8162774324774446): 13 files, no impossibilities.
+# . (device 985413, inode 2814749767106656): 12 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -299,12 +296,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 164 B / avg = 8 B
-# current buf: size = 8162 B / used = 164 B / count = 20 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 149 B / avg = 7 B
+# current buf: size = 8162 B / used = 149 B / count = 19 / avg = 7 B
 
-# strcache performance: lookups = 23 / hit rate = 13%
+# strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Fri Jun 17 10:58:36 2022
+# Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
+# Finished Make data base on Sun Jun 19 13:32:04 2022
 
  

@@ -14,33 +14,22 @@
         "**/node_modules": true,
         "**/iOS": true,
         "*.vhd":true,
-        "*.bin":true,
+        "**/*.bin":true,
         "*.exe":true,
-        
+       "**/*.o":true, 
+       "**/*.out":true,
+       
         
     },
     "files.associations": {
-        "os.h": "c"
+        "os.h": "c",
+        "print.h": "c",
+        "stdint.h": "c",
+        "tos.h": "c",
+        "stdio.h": "c",
+        "types.h": "c"
     },
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#e89293",
-        "activityBar.activeBorder": "#1d841c",
-        "activityBar.background": "#e89293",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#1d841c",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "sash.hoverBorder": "#e89293",
-        "statusBar.background": "#df686a",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#d63e40",
-        "statusBarItem.remoteBackground": "#df686a",
-        "statusBarItem.remoteForeground": "#15202b",
-        "titleBar.activeBackground": "#df686a",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#df686a99",
-        "titleBar.inactiveForeground": "#15202b99"
-    },
-    "peacock.color": "#df686a",
+    "peacock.color": "#1274c1",
+    "C_Cpp.errorSquiggles": "Disabled",
  
 }

@@ -1,8 +1,7 @@
+*.img
+*.out
 *.exe
 *.bin
-*.o
-*.log
-tmp
-
-*.img
-
+*.lock
+build/
+.transh
