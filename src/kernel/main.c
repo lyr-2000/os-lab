@@ -1,19 +1,11 @@
+// #include "kernel/stringio.h"
 #include "kernel/print.h"
+#include "init.h"
+
+
 void main(void) {
-    put_char('k');
-    put_char('e');
-    put_char('r');
-    put_char('n');
-    put_char('e');
-    put_char('l');
-    put_char('\n');
-    put_char('1');
-    put_char('2');
-    put_char('\b');
-    put_char('3');
-    put_char('\n');
-    unsigned int i = 0;
-    for(; i < 10; i++)
-        put_char('0' + i);
+    kernel_init();
+    
+    put_str("hello world!!!\b\b\b\b");
     while(1);
 }

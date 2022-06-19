@@ -27,9 +27,31 @@
         "stdint.h": "c",
         "tos.h": "c",
         "stdio.h": "c",
-        "types.h": "c"
+        "types.h": "c",
+        "stringio.h": "c",
+        "init.h": "c"
     },
     "peacock.color": "#1274c1",
     "C_Cpp.errorSquiggles": "Disabled",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#1f145c",
+        "activityBar.activeBorder": "#9d3522",
+        "activityBar.background": "#1f145c",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#9d3522",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "sash.hoverBorder": "#1f145c",
+        "statusBar.background": "#110b32",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#1f145c",
+        "statusBarItem.remoteBackground": "#110b32",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#110b32",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#110b3299",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.remoteColor": "#110b32",
  
 }
